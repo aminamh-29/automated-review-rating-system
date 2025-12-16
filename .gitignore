@@ -1,0 +1,7 @@
+# Ignore large dataset
+amazon-reviews.csv
+
+# Ignore environments and cache
+.conda/
+__pycache__/
+.ipynb_checkpoints/
