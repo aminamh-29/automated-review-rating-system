@@ -1,7 +1,38 @@
-# Ignore large dataset
-amazon-reviews.csv
-
-# Ignore environments and cache
-.conda/
+# =========================
+# Python cache
+# =========================
 __pycache__/
+*.pyc
+
+# =========================
+# Conda / virtual env
+# =========================
+.conda/
+
+# =========================
+# Jupyter
+# =========================
 .ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# Datasets
+# =========================
+*.csv
+
+# =========================
+# Machine Learning models
+# =========================
+*.pkl
+
+# =========================
+# Documents
+# =========================
+*.pdf
+*.docx
+~$*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
